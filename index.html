@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>한성 학사내비</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<style>/* Tailwind (compiled, inlined) */
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0}.right-5{right:1.25rem}.top-5{top:1.25rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:.25rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-7{margin-top:1.75rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-6{height:1.5rem}.h-7{height:1.75rem}.h-8{height:2rem}.h-9{height:2.25rem}.max-h-\[85vh\]{max-height:85vh}.min-h-screen{min-height:100vh}.w-12{width:3rem}.w-6{width:1.5rem}.w-7{width:1.75rem}.w-8{width:2rem}.w-9{width:2.25rem}.w-full{width:100%}.min-w-0{min-width:0}.max-w-5xl{max-width:64rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.cursor-pointer{cursor:pointer}.select-none{-webkit-user-select:none;-moz-user-select:none;user-select:none}.list-disc{list-style-type:disc}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.place-items-center{place-items:center}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-5{gap:1.25rem}.gap-8{gap:2rem}.space-y-1\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.375rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.375rem*var(--tw-space-y-reverse))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem*var(--tw-space-y-reverse))}.overflow-y-auto{overflow-y:auto}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.rounded-b-none{border-bottom-right-radius:0;border-bottom-left-radius:0}.p-0{padding:0}.p-1{padding:.25rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pb-24{padding-bottom:6rem}.pb-3{padding-bottom:.75rem}.pb-4{padding-bottom:1rem}.pl-4{padding-left:1rem}.pr-8{padding-right:2rem}.pt-2{padding-top:.5rem}.pt-6{padding-top:1.5rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.text-right{text-align:right}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[15px\]{font-size:15px}.text-\[16px\]{font-size:16px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-normal{font-weight:400}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@media (min-width:640px){.sm\:mx-0{margin-left:0;margin-right:0}.sm\:max-w-md{max-width:28rem}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}.sm\:rounded-b-\[22px\]{border-bottom-right-radius:22px;border-bottom-left-radius:22px}.sm\:p-6{padding:1.5rem}.sm\:p-7{padding:1.75rem}.sm\:p-8{padding:2rem}.sm\:px-8{padding-left:2rem;padding-right:2rem}.sm\:text-5xl{font-size:3rem;line-height:1}}
+</style>
+<style>
+  :root{
+    --bg:#F2F5F9; --card:#FFFFFF; --ink:#1B2333; --sub:#6B7688;
+    --blue:#2563EB; --blue-dim:#EAF1FF; --red:#E11D48; --red-dim:#FDECEF;
+    --green:#059669; --green-dim:#E7F7F1; --amber:#B45309; --amber-dim:#FEF3C7;
+    --ring-track:#E7ECF3; --line:#E9EDF3;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#10131A; --card:#1A1F29; --ink:#EEF1F6; --sub:#909BB0;
+      --blue-dim:#1B2740; --red-dim:#2E1620; --green-dim:#122A22; --amber:#F59E0B; --amber-dim:#33260A; --ring-track:#2A303C; --line:#262C38;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#10131A; --card:#1A1F29; --ink:#EEF1F6; --sub:#909BB0;
+    --blue-dim:#1B2740; --red-dim:#2E1620; --green-dim:#122A22; --amber:#F59E0B; --amber-dim:#33260A; --ring-track:#2A303C; --line:#262C38;
+  }
+  html{ font-size:17px; }
+  html,body{ background:var(--bg); }
+  body{
+    color:var(--ink); font-family:'Noto Sans KR',sans-serif;
+    padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  .num{ font-family:'Manrope','Noto Sans KR',sans-serif; font-weight:800; letter-spacing:-0.02em; }
+  .card{ background:var(--card); border-radius:22px; box-shadow:0 1px 2px rgba(20,30,60,.05), 0 16px 30px -18px rgba(20,30,60,.18); }
+  .ring{ position:relative; width:64px; height:64px; border-radius:9999px; display:grid; place-items:center; }
+  .ring::before{ content:""; position:absolute; inset:7px; border-radius:9999px; background:var(--card); }
+  .ring-lg{ width:112px; height:112px; }
+  .ring-lg::before{ inset:12px; }
+  select, input[type="number"]{ background:var(--bg); border:1px solid var(--line); color:var(--ink); }
+  select:focus, input:focus{ outline:2px solid var(--blue); outline-offset:1px; }
+  .stat-mini p:first-child{ font-size:1.15rem; }
+  /* 입력 화면 → 분석 화면. 인증·브라우저 저장소 없이 동작하는 예시 계정이다. */
+  [hidden]{display:none !important}
+  .login-screen{min-height:100svh;display:grid;place-items:center;padding:36px 20px;background:radial-gradient(ellipse at 50% 0%,var(--blue-dim),transparent 65%)}
+  .login-card{width:100%;max-width:460px;padding:36px 30px}
+  .login-brand{display:flex;align-items:center;gap:12px;margin-bottom:36px;font-weight:700}
+  .login-mark{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:var(--blue);color:white;font-size:21px}
+  .login-title{font-size:28px;letter-spacing:-.04em;font-weight:700;margin-bottom:10px}
+  .login-copy{font-size:15px;color:var(--sub);line-height:1.8;margin-bottom:28px}
+  .login-label{display:block;font-size:15px;font-weight:700;margin-bottom:9px}
+  .login-input{display:block;width:100%;padding:15px 16px;border:1px solid var(--line);border-radius:13px;background:var(--bg);color:var(--ink);font-size:16px}
+  .login-field{margin-bottom:20px}
+  .login-error{font-size:14px;line-height:1.6;color:var(--red);margin:0 0 18px}
+  .login-submit{width:100%;padding:15px;border-radius:13px;background:var(--blue);color:white;font-weight:700;font-size:16px}
+  .login-demo{margin-top:22px;padding:15px;border-radius:12px;background:var(--blue-dim);color:var(--ink);font-size:14px;line-height:1.8}
+  .login-notice{margin-top:18px;color:var(--sub);font-size:13px;line-height:1.8}
+  .logout-button{display:inline-block;margin-top:8px;color:var(--sub);font-size:12px;text-decoration:underline;text-underline-offset:3px}
+  .credit-heading{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:30px}
+  .credit-heading h2{font-size:19px;font-weight:700}
+  .credit-profile{color:var(--sub);font-size:14px}
+  .credit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px 12px;align-items:center}
+  .credit-cell{text-align:center;min-width:0}
+  .credit-value{font-size:clamp(32px,5vw,48px);line-height:1.2;color:var(--blue)}
+  .credit-label{font-size:13px;line-height:1.6;margin-top:12px;font-weight:700}
+  .credit-ring{grid-column:1/-1;display:grid;place-items:center}
+  .credit-proof{margin-top:22px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--sub);line-height:1.8;text-align:center}
+  @media(min-width:900px){
+    .credit-grid{grid-template-columns:repeat(6,minmax(0,1fr)) 100px;gap:12px}
+    .credit-value{font-size:42px}
+    .credit-cell.group-start{border-left:1px solid var(--line);padding-left:12px}
+    .credit-ring{grid-column:auto}
+    .credit-ring .ring-lg{width:96px;height:96px}
+  }
+  @media(prefers-reduced-motion:no-preference){.dashboard-enter{animation:dashboard-in .25s ease-out}@keyframes dashboard-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}}
+  /* 트랙별 졸업자격과 직접 확인하는 체크리스트 */
+  .track-rule-title{font-size:19px;font-weight:700;margin-bottom:12px}
+  .track-rule-option{font-size:16px;font-weight:700;margin-bottom:12px}
+  .track-rule-language{padding:20px;border-radius:16px;background:var(--bg);margin:22px 0}
+  .track-rule-formula{font-size:17px;font-weight:700;line-height:1.8;color:var(--blue)}
+  .track-rule-copy{font-size:14px;line-height:1.8;color:var(--sub);margin-top:10px}
+  .startup-cert-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px}
+  .startup-cert{padding:16px;border-radius:12px;background:var(--bg);font-size:15px;font-weight:700;overflow-wrap:anywhere}
+  .graduation-checks{display:grid;gap:10px;margin-top:20px}
+  .graduation-check-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px;border:1px solid var(--line);border-radius:13px;background:var(--bg);font-size:15px;font-weight:500;cursor:pointer}
+  .graduation-check{appearance:none;-webkit-appearance:none;width:25px;height:25px;flex:0 0 25px;margin:0;border:2px solid var(--sub);border-radius:6px;background:var(--card);cursor:pointer}
+  .graduation-check:checked{background-color:var(--blue);border-color:var(--blue);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m6 12 4 4 8-8' fill='none' stroke='white' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-position:center;background-size:22px;background-repeat:no-repeat}
+  .graduation-check:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+  @media(max-width:380px){.startup-cert-list{grid-template-columns:1fr}}
+</style>
+</head>
+<body class="min-h-screen">
+
+<!-- 1단계: 예시 학생 정보 입력 -->
+<section id="loginScreen" class="login-screen" aria-labelledby="loginTitle">
+  <div class="card login-card">
+    <div class="login-brand"><span class="login-mark" aria-hidden="true">한</span><span>한성 학사내비</span></div>
+    <h1 id="loginTitle" class="login-title">내 정보 입력</h1>
+    <p class="login-copy">내 학점부터 졸업까지.</p>
+    <form id="loginForm" novalidate autocomplete="off">
+      <div class="login-field"><label class="login-label" for="loginName">이름</label><input class="login-input" id="loginName" name="studentName" type="text" maxlength="30" required aria-describedby="loginError"></div>
+      <div class="login-field"><label class="login-label" for="loginStudentId">학번</label><input class="login-input" id="loginStudentId" name="studentId" type="text" inputmode="numeric" maxlength="20" required aria-describedby="loginError"></div>
+      <p id="loginError" class="login-error" role="alert" hidden></p>
+      <button type="submit" class="login-submit">로그인</button>
+    </form>
+  </div>
+</section>
+
+<!-- 2단계: 예시 계정 로그인 후 학사내비 -->
+<div id="dashboardScreen" hidden>
+<header class="max-w-5xl mx-auto px-5 sm:px-8 pt-8 pb-4 flex items-center justify-between">
+  <div class="flex items-center gap-2">
+    <div class="w-9 h-9 rounded-xl grid place-items-center text-white text-sm num" style="background:var(--blue)">한</div>
+    <div>
+      <p class="text-[15px] font-bold leading-tight">한성 학사내비</p>
+      <p class="text-xs" style="color:var(--sub)">졸업요건 자동 분석 서비스</p>
+    </div>
+  </div>
+  <div class="text-right">
+    <p class="text-sm font-bold"><span id="studentName">김민지</span> <span class="font-normal" style="color:var(--sub)">님</span></p>
+    <p id="studentMeta" class="text-xs" style="color:var(--sub)">학번 123 · 2학년 2학기</p>
+    <span class="inline-block mt-1 text-[10px] font-bold px-2 py-0.5 rounded-full" style="background:var(--amber-dim); color:var(--amber)">예시 데이터</span>
+    <div><button type="button" class="logout-button" onclick="logoutDemo()">로그아웃</button></div>
+  </div>
+</header>
+
+<main class="max-w-5xl mx-auto px-5 sm:px-8 pb-24 space-y-6">
+  <div id="dataWarn"></div>
+  <section id="hero" class="card p-6 sm:p-8"></section>
+  <section id="summary" class="card p-6 sm:p-8"></section>
+  <section id="risks" class="card p-6 sm:p-8" style="border-left:4px solid var(--red)"></section>
+
+  <!-- 이수체계 안내 -->
+  <section class="card p-6 sm:p-8">
+    <p class="text-sm font-bold mb-5" style="color:var(--sub)">졸업 이수체계 안내</p>
+    <div class="space-y-4">
+      <div class="flex gap-3">
+        <span class="num text-xs w-6 h-6 rounded-full grid place-items-center shrink-0 text-white" style="background:var(--blue)">1</span>
+        <p class="text-sm leading-relaxed">교과 <b>130학점</b> = 전공(1·2트랙) <b>78학점 이상</b> + 교양 <b>31학점 이상</b>. 나머지 21학점은 전공·교양 구분 없이 자유롭게 이수해요.</p>
+      </div>
+      <div class="flex gap-3">
+        <span class="num text-xs w-6 h-6 rounded-full grid place-items-center shrink-0 text-white" style="background:var(--blue)">2</span>
+        <p class="text-sm leading-relaxed">비교과 <b>800point</b>를 별도로 채워야 해요.</p>
+      </div>
+      <div class="flex gap-3">
+        <span class="num text-xs w-6 h-6 rounded-full grid place-items-center shrink-0 text-white" style="background:var(--blue)">3</span>
+        <p class="text-sm leading-relaxed">트랙(전공)별 별도 졸업요건도 충족해야 해요. <span style="color:var(--sub)">(예: 트랙별 전공캡스톤디자인 1과목 필수)</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="text-sm font-bold mb-3 px-1" style="color:var(--sub)">교양 이수 요건</h2>
+    <div id="liberal" class="grid grid-cols-1 sm:grid-cols-3 gap-5"></div>
+  </section>
+
+  <section>
+    <div class="flex flex-wrap items-center justify-between gap-3 mb-1 px-1">
+      <h2 class="text-sm font-bold" style="color:var(--sub)">전공 이수 요건</h2>
+      <div class="flex rounded-full p-1 text-xs font-bold" style="background:var(--card); box-shadow:0 1px 2px rgba(20,30,60,.06)">
+        <button id="btnSingle" onclick="setStructure('single')" class="px-3 py-1.5 rounded-full transition">학과 단일</button>
+        <button id="btnTrack" onclick="setStructure('track')" class="px-3 py-1.5 rounded-full transition">1트랙 + 2트랙</button>
+      </div>
+    </div>
+    <p class="text-xs mb-4 px-1" style="color:var(--sub)">2학년부터 주트랙(1트랙) · 부트랙(2트랙)을 각 39학점씩 이수해요</p>
+    <div id="cardsTrack" class="grid grid-cols-1 sm:grid-cols-2 gap-5"></div>
+    <div id="cardsSingle" class="hidden"></div>
+  </section>
+
+  <section id="bonus" class="card p-6 sm:p-8"></section>
+  <section id="scholar" class="card p-6 sm:p-8"></section>
+
+  <!-- 기업경영트랙: 어학성적 또는 자격증 중 하나 선택 -->
+  <section id="enterpriseRequirements" class="card p-6 sm:p-8" aria-labelledby="enterpriseTitle">
+    <h2 id="enterpriseTitle" class="track-rule-title">기업경영트랙 졸업요건</h2>
+    <p class="text-sm leading-relaxed" style="color:var(--sub)">아래 1. 어학성적 또는 2. 자격증 중 한 가지를 선택해 제출해요.</p>
+    <div class="track-rule-language">
+      <h3 class="track-rule-option">1. 어학성적</h3>
+      <p class="track-rule-formula">전체 평점평균(GPA) × 200 + TOEIC 성적 ≥ 1,200</p>
+      <p class="track-rule-copy">TOEFL·TOEIC Speaking·OPIc 등은 TOEIC 점수로 환산 가능한 성적에 한해 적용해요.</p>
+      <p id="enterpriseLanguageHint" class="track-rule-copy"></p>
+    </div>
+    <div>
+      <h3 class="track-rule-option">2. 졸업요건 대체 자격증</h3>
+      <p class="text-xs mb-4 leading-relaxed" style="color:var(--sub)">경영학부 인정 자격증 또는 직무 관련 자격증을 제출해요. 대학 입학 후 취득한 자격증만 유효하며 직무 관련 자격증은 사유서를 함께 제출해요.</p>
+      <input id="certSearch" type="text" placeholder="자격증명 또는 발급처 검색" class="w-full rounded-xl px-4 py-3 text-sm mb-4" oninput="filterCerts()">
+      <div id="certList" class="space-y-2">
+
+        <details class="cert-cat rounded-xl" style="border:1px solid var(--line)" open>
+          <summary class="cursor-pointer select-none px-4 py-3 text-sm font-bold flex items-center justify-between" style="background:var(--bg); border-radius:12px">컴퓨터 활용 자격 <span class="text-xs font-normal" style="color:var(--sub)">2종</span></summary>
+          <ul class="text-sm px-4 pt-2 pb-3 space-y-1.5">
+            <li class="cert-row flex justify-between"><span>MOS Master</span><span style="color:var(--sub)">Microsoft</span></li>
+            <li class="cert-row flex justify-between"><span>컴퓨터활용능력 1~2급</span><span style="color:var(--sub)">대한상공회의소</span></li>
+          </ul>
+        </details>
+
+        <details class="cert-cat rounded-xl" style="border:1px solid var(--line)">
+          <summary class="cursor-pointer select-none px-4 py-3 text-sm font-bold flex items-center justify-between" style="background:var(--bg); border-radius:12px">회계/세무 실무 자격 <span class="text-xs font-normal" style="color:var(--sub)">8종</span></summary>
+          <ul class="text-sm px-4 pt-2 pb-3 space-y-1.5">
+            <li class="cert-row flex justify-between"><span>재경관리사</span><span style="color:var(--sub)">삼일회계법인</span></li>
+            <li class="cert-row flex justify-between"><span>전산회계 1~2급</span><span style="color:var(--sub)">한국세무사회</span></li>
+            <li class="cert-row flex justify-between"><span>전산세무 1~2급</span><span style="color:var(--sub)">한국세무사회</span></li>
+            <li class="cert-row flex justify-between"><span>회계관리 1~2급</span><span style="color:var(--sub)">삼일회계법인</span></li>
+            <li class="cert-row flex justify-between"><span>기업회계</span><span style="color:var(--sub)">한국생산성본부</span></li>
+            <li class="cert-row flex justify-between"><span>세무회계</span><span style="color:var(--sub)">한국생산성본부</span></li>
+            <li class="cert-row flex justify-between"><span>전사회계운용사 1~3급</span><span style="color:var(--sub)">한국생산성본부</span></li>
+            <li class="cert-row flex justify-between"><span>회계실무(FAT) 1~2급</span><span style="color:var(--sub)">한국공인회계사회</span></li>
+          </ul>
+        </details>
+
+        <details class="cert-cat rounded-xl" style="border:1px solid var(--line)">
+          <summary class="cursor-pointer select-none px-4 py-3 text-sm font-bold flex items-center justify-between" style="background:var(--bg); border-radius:12px">금융/투자 실무 자격 <span class="text-xs font-normal" style="color:var(--sub)">7종</span></summary>
+          <ul class="text-sm px-4 pt-2 pb-3 space-y-1.5">
+            <li class="cert-row flex justify-between"><span>투자자산운용사</span><span style="color:var(--sub)">금융투자협회</span></li>
+            <li class="cert-row flex justify-between"><span>신용분석사</span><span style="color:var(--sub)">금융투자협회</span></li>
+            <li class="cert-row flex justify-between"><span>외환관리사</span><span style="color:var(--sub)">한국무역협회</span></li>
+            <li class="cert-row flex justify-between"><span>자산관리사</span><span style="color:var(--sub)">한국FPSB</span></li>
+            <li class="cert-row flex justify-between"><span>펀드투자권유대행인</span><span style="color:var(--sub)">금융투자협회</span></li>
+            <li class="cert-row flex justify-between"><span>증권투자권유대행인</span><span style="color:var(--sub)">금융투자협회</span></li>
+            <li class="cert-row flex justify-between"><span>은행텔러자격증</span><span style="color:var(--sub)">한국금융연수원</span></li>
+          </ul>
+        </details>
+
+        <details class="cert-cat rounded-xl" style="border:1px solid var(--line)">
+          <summary class="cursor-pointer select-none px-4 py-3 text-sm font-bold flex items-center justify-between" style="background:var(--bg); border-radius:12px">국제 자격증 <span class="text-xs font-normal" style="color:var(--sub)">4종</span></summary>
+          <ul class="text-sm px-4 pt-2 pb-3 space-y-1.5">
+            <li class="cert-row flex justify-between"><span>재무분석사(CFA)</span><span style="color:var(--sub)">CFA Institute</span></li>
+            <li class="cert-row flex justify-between"><span>재무위험관리사(FRM)</span><span style="color:var(--sub)">GARP</span></li>
+            <li class="cert-row flex justify-between"><span>국제재무설계사(CFP)</span><span style="color:var(--sub)">FPSB</span></li>
+            <li class="cert-row flex justify-between"><span>AFPK</span><span style="color:var(--sub)">FPSB Korea</span></li>
+          </ul>
+        </details>
+
+        <details class="cert-cat rounded-xl" style="border:1px solid var(--line)">
+          <summary class="cursor-pointer select-none px-4 py-3 text-sm font-bold flex items-center justify-between" style="background:var(--bg); border-radius:12px">민간 자격 <span class="text-xs font-normal" style="color:var(--sub)">6종</span></summary>
+          <ul class="text-sm px-4 pt-2 pb-3 space-y-1.5">
+            <li class="cert-row flex justify-between"><span>데이터분석전문가</span><span style="color:var(--sub)">한국데이터산업진흥원</span></li>
+            <li class="cert-row flex justify-between"><span>창업지도사</span><span style="color:var(--sub)">민간 협회</span></li>
+            <li class="cert-row flex justify-between"><span>전자상거래관리사</span><span style="color:var(--sub)">대한상공회의소</span></li>
+            <li class="cert-row flex justify-between"><span>전자상거래거래운용사</span><span style="color:var(--sub)">대한상공회의소</span></li>
+            <li class="cert-row flex justify-between"><span>정보시스템감리사(CISA)</span><span style="color:var(--sub)">ISACA</span></li>
+            <li class="cert-row flex justify-between"><span>디지털/인터넷 윤리자격(구IEQ/현DEQ)</span><span style="color:var(--sub)">한국인터넷윤리학회</span></li>
+          </ul>
+        </details>
+
+        <details class="cert-cat rounded-xl" style="border:1px solid var(--line)">
+          <summary class="cursor-pointer select-none px-4 py-3 text-sm font-bold flex items-center justify-between" style="background:var(--bg); border-radius:12px">국가공인 민간자격 <span class="text-xs font-normal" style="color:var(--sub)">9종</span></summary>
+          <ul class="text-sm px-4 pt-2 pb-3 space-y-1.5">
+            <li class="cert-row flex justify-between"><span>소비자전문상담사 1~2급</span><span style="color:var(--sub)">한국소비자원</span></li>
+            <li class="cert-row flex justify-between"><span>컨벤션기획사 1~2급</span><span style="color:var(--sub)">한국관광공사</span></li>
+            <li class="cert-row flex justify-between"><span>국제무역사 1급</span><span style="color:var(--sub)">한국무역협회</span></li>
+            <li class="cert-row flex justify-between"><span>원산지실무사</span><span style="color:var(--sub)">한국무역협회</span></li>
+            <li class="cert-row flex justify-between"><span>외식경영관리사</span><span style="color:var(--sub)">한국외식산업협회</span></li>
+            <li class="cert-row flex justify-between"><span>인적자원개발사(HRD)</span><span style="color:var(--sub)">한국HRD협회</span></li>
+            <li class="cert-row flex justify-between"><span>SMAT(서비스경영자격) 1~3급</span><span style="color:var(--sub)">한국생산성본부</span></li>
+            <li class="cert-row flex justify-between"><span>구매자재관리사</span><span style="color:var(--sub)">한국구매자재관리협회</span></li>
+            <li class="cert-row flex justify-between"><span>TESAT 1~3급</span><span style="color:var(--sub)">한국경제신문</span></li>
+          </ul>
+        </details>
+
+        <details class="cert-cat rounded-xl" style="border:1px solid var(--line)">
+          <summary class="cursor-pointer select-none px-4 py-3 text-sm font-bold flex items-center justify-between" style="background:var(--bg); border-radius:12px">국가기술자격 <span class="text-xs font-normal" style="color:var(--sub)">4종</span></summary>
+          <ul class="text-sm px-4 pt-2 pb-3 space-y-1.5">
+            <li class="cert-row flex justify-between"><span>사회조사분석사 1~2급</span><span style="color:var(--sub)">산업인력공단(Q-net)</span></li>
+            <li class="cert-row flex justify-between"><span>사무자동화산업기사</span><span style="color:var(--sub)">산업인력공단(Q-net)</span></li>
+            <li class="cert-row flex justify-between"><span>물류관리사</span><span style="color:var(--sub)">산업인력공단(Q-net)</span></li>
+            <li class="cert-row flex justify-between"><span>유통관리사 2급</span><span style="color:var(--sub)">산업인력공단(Q-net)</span></li>
+          </ul>
+        </details>
+
+        <details class="cert-cat rounded-xl" style="border:1px solid var(--line)">
+          <summary class="cursor-pointer select-none px-4 py-3 text-sm font-bold flex items-center justify-between" style="background:var(--bg); border-radius:12px">국가전문자격 <span class="text-xs font-normal" style="color:var(--sub)">5종</span></summary>
+          <ul class="text-sm px-4 pt-2 pb-3 space-y-1.5">
+            <li class="cert-row flex justify-between"><span>경영지도사</span><span style="color:var(--sub)">중소벤처기업부</span></li>
+            <li class="cert-row flex justify-between"><span>공인노무사</span><span style="color:var(--sub)">고용노동부</span></li>
+            <li class="cert-row flex justify-between"><span>공인중개사</span><span style="color:var(--sub)">국토교통부</span></li>
+            <li class="cert-row flex justify-between"><span>회계사(CPA)</span><span style="color:var(--sub)">금융위원회</span></li>
+            <li class="cert-row flex justify-between"><span>세무사(CTA)</span><span style="color:var(--sub)">기획재정부</span></li>
+          </ul>
+        </details>
+
+      </div>
+      <p id="certEmpty" class="hidden text-xs text-center py-4" style="color:var(--sub)">검색 결과가 없어요</p>
+    </div>
+  </section>
+
+  <!-- 창업트랙: 사용자가 제공한 자격증 목록 -->
+  <section id="startupRequirements" class="card p-6 sm:p-8" aria-labelledby="startupTitle">
+    <h2 id="startupTitle" class="track-rule-title">창업트랙 졸업요건</h2>
+    <p class="text-sm" style="color:var(--sub)">자격증</p>
+    <ul id="startupCertList" class="startup-cert-list"></ul>
+  </section>
+
+  <!-- 졸업 예측 계산기 -->
+  <section class="card p-6 sm:p-8">
+    <p class="font-bold text-[15px] mb-1">졸업 예측 계산기</p>
+    <p class="text-xs mb-6" style="color:var(--sub)">학기별 수강 계획을 입력하면 졸업 시점과 졸업/수료 판정을 계산해요</p>
+    <div class="flex items-center justify-between mb-2">
+      <span class="text-xs font-bold" style="color:var(--sub)">학기별 수강 예정 학점</span>
+      <button onclick="addSemester()" class="text-xs font-bold px-3 py-1.5 rounded-full" style="background:var(--blue-dim); color:var(--blue)">+ 학기 추가</button>
+    </div>
+    <div id="semesterRows" class="space-y-2 mb-5"></div>
+    <label class="block mb-6">
+      <span class="text-xs font-bold block mb-2" style="color:var(--sub)">졸업 전까지 추가로 채울 비교과 포인트 (현재 550/800pt)</span>
+      <input id="extraBonus" type="number" min="0" value="250" class="w-full rounded-xl px-4 py-3 text-sm num">
+    </label>
+    <div class="rounded-2xl p-5 sm:p-6" style="background:var(--bg)">
+      <div class="grid grid-cols-2 gap-4 mb-4">
+        <div><p id="resExpected" class="num text-3xl" style="color:var(--blue)">-</p><p class="text-xs mt-1" style="color:var(--sub)">예상 졸업 학기</p></div>
+        <div><p class="num text-3xl"><span id="resPlan">0</span>학점</p><p id="resPlanLabel" class="text-xs mt-1" style="color:var(--sub)"></p></div>
+      </div>
+      <p id="resStatus" class="text-sm font-bold mb-4 leading-relaxed"></p>
+      <p class="text-xs font-bold mb-2" style="color:var(--sub)">졸업요건 체크</p>
+      <ul id="resChecks" class="space-y-2 mb-4"></ul>
+      <p class="text-xs font-bold mb-2" style="color:var(--sub)">남은 영역별 필요 학점</p>
+      <ul id="resAreas" class="text-sm space-y-1.5 list-disc pl-4"></ul>
+    </div>
+  </section>
+
+  <!-- 수동 확인 항목: 자동 졸업 판정과 별개이며 새로고침 시 저장하지 않는다. -->
+  <section id="graduationChecklist" class="card p-6 sm:p-8" aria-labelledby="graduationChecklistTitle">
+    <h2 id="graduationChecklistTitle" class="track-rule-title">졸업 체크리스트</h2>
+    <div class="graduation-checks" role="group" aria-labelledby="graduationChecklistTitle">
+      <label class="graduation-check-row"><span>기업경영트랙 졸업요건 충족</span><input id="checkEnterprise" class="graduation-check" type="checkbox"></label>
+      <label class="graduation-check-row"><span>창업트랙 졸업요건 충족</span><input id="checkStartup" class="graduation-check" type="checkbox"></label>
+      <label class="graduation-check-row"><span>비교과 포인트 충족</span><input id="checkBonus" class="graduation-check" type="checkbox"></label>
+      <label class="graduation-check-row"><span>총 학점 충족</span><input id="checkTotal" class="graduation-check" type="checkbox"></label>
+    </div>
+  </section>
+
+  <p class="text-[11px] leading-relaxed px-1" style="color:var(--sub)">※ 이 화면은 예시 학생(김민지) 데이터로 만든 프로토타입이며 실제 학교 시스템과 연동되어 있지 않아요. 졸업 판정은 참고용이고, 정확한 요건은 종합정보시스템과 학교 공지를 확인하세요.</p>
+
+  <div id="modalBackdrop" class="hidden fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-6" style="background:rgba(10,14,24,.55)" onclick="if(event.target===this) closeModal()">
+    <div class="card relative w-full sm:max-w-md max-h-[85vh] overflow-y-auto p-6 sm:p-7 rounded-b-none sm:rounded-b-[22px]">
+      <button onclick="closeModal()" class="absolute top-5 right-5 w-8 h-8 rounded-full grid place-items-center text-lg" style="background:var(--bg); color:var(--sub)">×</button>
+      <div id="modalBody" class="text-sm leading-relaxed pr-8"></div>
+    </div>
+  </div>
+</main>
+</div>
+
+<script>
+  /* ===== 단일 데이터 소스: 모든 카드·요약·계산기는 여기서 계산된다 ===== */
+  var S = {
+    student: { name: '김민지', id: '123', term: '2학년 2학기' },
+    totalReq: 130, expectedTotal: 76, poolReq: 21,
+    gpa: 3.7, hasF: false, applied: 76, gpaSum: 266.4, pctScore: 90.85, lastTerm: 18,
+    bonus: { earned: 550, req: 800 },
+    cats: {
+      basic:    { title: '기초교양 (필수)', req: 13, earned: 13 },
+      elective: { title: '선택필수교양', req: 15, earned: 9 },
+      free:     { title: '자율선택', req: 3, earned: 21 },
+      t1: { kicker: '1트랙 · 주트랙', kc: 'var(--blue)', title: '기업경영트랙', req: 39, parts: [['기초',3,3],['필수',6,15],['선택',9,21]] },
+      t2: { kicker: '2트랙 · 부트랙', kc: 'var(--red)',  title: '창업트랙',     req: 39, parts: [['기초',3,3],['필수',3,15],['선택',9,21]] }
+    },
+    domains: [['예술·체육',1],['인문학',1],['사회과학',1],['자연·공학',0],['융합교양',0]], domainMin: 4,
+    domainCourses: { '자연·공학': '공학의 이해', '융합교양': '디자인 논리와 창의' },
+    risks: [
+      ['재수강 검토','스타트업 사례분석 (C+)','평점 향상을 위해 재수강을 검토해보세요'],
+      ['출석 주의','회계원리','출석률이 낮아 F학점 위험이 있어요. 출결을 확인해 주세요'],
+      ['미신청','창업지원정책의 이해','2트랙 필수 과목이에요. 다음 학기에 꼭 신청하세요']
+    ],
+    graduation: {
+      languageTarget: 1200, languageGpaWeight: 200,
+      startupCertificates: ['Google AI Essentials','AICE','AI-POT','TESAT','TOEIC','TOEFL']
+    },
+    courses: {
+      t1: ['노사관계론','마케팅데이터분석','마케팅커뮤니케이션','투자론','경영학의 이해'],
+      t2: ['AI 응용 창업프로젝트','실전형 AI 활용','투자 생태계 이해와 활용','창업실무 인턴십']
+    }
+  };
+
+  function earnedOf(c){ return c.parts ? c.parts.reduce(function(a,p){ return a + p[1]; }, 0) : c.earned; }
+
+  /* 파생값 계산 + 정합성 검증 */
+  function derive(){
+    var counted = 0, surplus = 0, needs = {}, errs = [];
+    Object.keys(S.cats).forEach(function(k){
+      var c = S.cats[k], e = earnedOf(c);
+      if(c.parts && c.parts.reduce(function(a,p){ return a + p[2]; }, 0) !== c.req) errs.push(c.title + ' 세부 기준 합계 불일치');
+      counted += Math.min(e, c.req); surplus += Math.max(0, e - c.req); needs[k] = Math.max(0, c.req - e);
+    });
+    var pool = Math.min(S.poolReq, surplus), total = counted + pool, remaining = S.totalReq - total;
+    needs.pool = S.poolReq - pool;
+    var sum = 0; Object.keys(needs).forEach(function(k){ sum += needs[k]; });
+    if(sum !== remaining) errs.push('영역별 필요 학점 합계가 총 필요 학점과 달라요');
+    if(total !== S.expectedTotal) errs.push('취득 학점 합계가 예시 데이터(' + S.expectedTotal + ')와 달라요');
+    var major = earnedOf(S.cats.t1) + earnedOf(S.cats.t2);
+    var liberal = earnedOf(S.cats.basic) + earnedOf(S.cats.elective);
+    var general = earnedOf(S.cats.free);
+    if(major + liberal + general !== total) errs.push('전공·교양·일반 합계가 총 취득학점과 달라요');
+    return { total: total, remaining: remaining, major: major, liberal: liberal, general: general, needs: needs, errs: errs };
+  }
+  var D = derive();
+
+  /* ===== 렌더 헬퍼 ===== */
+  function pct(e, r){ return Math.round(Math.min(e, r) / r * 100); }
+  function ring(p, col, lg){ return '<div class="ring' + (lg ? ' ring-lg' : '') + '" style="background:conic-gradient(' + col + ' ' + p + '%, var(--ring-track) 0)"><span class="relative num ' + (lg ? 'text-xl' : 'text-xs') + '">' + p + '%</span></div>'; }
+  function num(v, l, col){ return '<div><p class="num text-2xl"' + (col ? ' style="color:' + col + '"' : '') + '>' + v + '</p><p class="text-[11px]" style="color:var(--sub)">' + l + '</p></div>'; }
+  function pill(t, bg, c){ return '<span class="text-xs font-bold px-3 py-1.5 rounded-full shrink-0" style="background:' + bg + '; color:' + c + '">' + t + '</span>'; }
+  function btn(t, k){ return '<button onclick="openModal(\'' + k + '\')" class="text-xs font-bold px-3 py-1.5 rounded-full shrink-0" style="background:var(--blue-dim); color:var(--blue)">' + t + '</button>'; }
+  function chip(s){
+    if(s === 1) return pill('충족', 'var(--green-dim)', 'var(--green)');
+    if(s === 3) return pill('선발제', 'var(--blue-dim)', 'var(--blue)');
+    if(s === 4) return pill('자동 선발', 'var(--green-dim)', 'var(--green)');
+    if(s === 5) return pill('신청 필요', 'var(--amber-dim)', 'var(--amber)');
+    if(s === 0) return pill('미충족', 'var(--red-dim)', 'var(--red)');
+    return pill('확인 필요', 'var(--amber-dim)', 'var(--amber)');
+  }
+  function checkRow(t, s, d){
+    return '<li class="flex items-start justify-between gap-3 rounded-xl px-4 py-3" style="background:var(--card)"><div><p class="text-sm">' + t + '</p><p class="text-[11px]" style="color:var(--sub)">' + d + '</p></div>' + chip(s) + '</li>';
+  }
+
+  function catCard(c, key, btnText){
+    var e = earnedOf(c), need = Math.max(0, c.req - e), p = pct(e, c.req);
+    var right = need > 0 ? (key ? btn(btnText || '추천 과목 보기', key) : '') : pill('이수 완료', 'var(--green-dim)', 'var(--green)');
+    var kick = c.kicker ? '<p class="text-[11px] font-bold" style="color:' + c.kc + '">' + c.kicker + '</p>' : '';
+    var note = c.note || '';
+    if(c.parts) note = c.parts.map(function(x){ return x[0] + ' ' + x[1] + '/' + x[2]; }).join(' · ');
+    return '<div class="card p-6"><div class="flex items-start justify-between mb-3"><div>' + kick + '<p class="font-bold text-[15px]">' + c.title + '</p></div>' + right + '</div>'
+      + (note ? '<p class="text-[11px] mb-3" style="color:var(--sub)">' + note + '</p>' : '')
+      + '<div class="flex items-end justify-between"><div class="flex gap-5">' + num(c.req, '기준') + num(e, '이수', 'var(--blue)') + num(need, '필요', need > 0 ? 'var(--red)' : '') + '</div>'
+      + ring(p, need > 0 ? 'var(--blue)' : 'var(--green)') + '</div></div>';
+  }
+
+  function renderStatic(){
+    var languageScore = Math.max(0, Math.ceil(S.graduation.languageTarget - S.gpa * S.graduation.languageGpaWeight));
+    document.getElementById('enterpriseLanguageHint').textContent = '현재 평점 ' + S.gpa + ' 기준: TOEIC 환산점수 ' + languageScore + '점 이상이 필요해요.';
+    document.getElementById('startupCertList').innerHTML = S.graduation.startupCertificates.map(function(name){ return '<li class="startup-cert">' + name + '</li>'; }).join('');
+    document.getElementById('studentName').textContent = S.student.name;
+    document.getElementById('studentMeta').textContent = '학번 ' + S.student.id + ' · ' + S.student.term;
+    var warn = D.errs.length ? '<div class="rounded-xl px-4 py-3 text-xs font-bold" style="background:var(--red-dim); color:var(--red)">데이터 불일치: ' + D.errs.join(' / ') + '</div>' : '';
+    document.getElementById('dataWarn').innerHTML = warn;
+
+    var rate = pct(D.total, S.totalReq);
+    document.getElementById('summary').innerHTML =
+      '<div class="credit-heading"><h2 id="creditTitle" tabindex="-1">이수학점</h2><p class="credit-profile">' + S.student.id + ' ' + S.student.name + '</p></div>'
+      + '<div class="credit-grid">'
+      + [[S.totalReq,'총 기준 학점',''],[D.total,'총 이수 학점',''],[D.major,'전공','group-start'],[D.liberal,'교양',''],[D.general,'일반(자율선택)',''],[D.remaining,'필요 학점','group-start']].map(function(x, i){
+          return '<div class="credit-cell ' + x[2] + '"><p class="num credit-value"' + (i === 5 ? ' style="color:var(--red)"' : (i >= 2 && i <= 4 ? ' style="color:#8B5CF6"' : '')) + '>' + x[0] + '</p><p class="credit-label">' + x[1] + '</p></div>'; }).join('')
+      + '<div class="credit-ring">' + ring(rate, 'var(--blue)', true) + '</div></div>'
+      + '<div class="grid grid-cols-4 gap-3 mt-7 pt-6" style="border-top:1px solid var(--line)">'
+      + [[S.applied,'신청학점',''],[S.gpaSum,'평점총계',''],[S.gpa,'평균평점','var(--blue)'],[S.pctScore,'백분위','']].map(function(x){
+          return '<div class="stat-mini"><p class="num"' + (x[2] ? ' style="color:' + x[2] + '"' : '') + '>' + x[0] + '</p><p class="text-[11px] mt-0.5" style="color:var(--sub)">' + x[1] + '</p></div>'; }).join('')
+      + '</div>';
+
+    document.getElementById('risks').innerHTML =
+      '<div class="flex items-center gap-2 mb-4"><span class="text-xl">⚠️</span><p class="font-bold text-[15px]" style="color:var(--red)">주의가 필요해요</p></div><ul class="space-y-3">'
+      + S.risks.map(function(r){
+          return '<li class="flex items-start gap-3"><span class="text-[11px] font-bold px-2 py-1 rounded-full shrink-0 mt-0.5" style="background:var(--red-dim); color:var(--red)">' + r[0] + '</span><div><p class="text-sm font-bold">' + r[1] + '</p><p class="text-xs" style="color:var(--sub)">' + r[2] + '</p></div></li>'; }).join('')
+      + '</ul>';
+
+    var el = S.cats.elective;
+    el.note = '5개 영역 중 ' + S.domainMin + '개 이상 · 이수 분야 ' + S.domains.filter(function(d){ return d[1]; }).length + '/' + S.domainMin;
+    S.cats.free.note = '일반교양·일반선택 등 (3학점 이상)';
+    document.getElementById('liberal').innerHTML = catCard(S.cats.basic) + catCard(el, 'elective', '영역 현황 보기') + catCard(S.cats.free);
+    document.getElementById('cardsTrack').innerHTML = catCard(S.cats.t1, 't1') + catCard(S.cats.t2, 't2');
+    document.getElementById('cardsSingle').innerHTML = catCard({ kicker: '단일 전공 (예시)', kc: 'var(--sub)', title: '경영학과', req: 78, earned: earnedOf(S.cats.t1) + earnedOf(S.cats.t2), note: '단일학과 요건은 예시이며 학교 확인이 필요해요' });
+
+    var bp = pct(S.bonus.earned, S.bonus.req);
+    document.getElementById('bonus').innerHTML =
+      '<p class="text-sm font-bold mb-5" style="color:var(--sub)">비교과 포인트</p><div class="flex flex-col sm:flex-row sm:items-center gap-8"><div class="flex-1">'
+      + '<p class="num text-4xl sm:text-5xl"><span style="color:var(--green)">' + S.bonus.earned + '</span><span class="text-2xl" style="color:var(--sub)"> / ' + S.bonus.req + 'pt</span></p>'
+      + '<p class="text-xs mt-2" style="color:var(--sub)">졸업 요건인 ' + S.bonus.req + 'pt까지 ' + (S.bonus.req - S.bonus.earned) + 'pt 남았어요 (미충족 시 졸업이 아닌 수료)</p>'
+      + '<a href="https://hsportal.hansung.ac.kr/" target="_blank" rel="noopener" class="inline-block mt-4 text-xs font-bold px-4 py-2.5 rounded-full text-white" style="background:var(--green)">비교과 프로그램 신청 바로가기 ↗</a></div>'
+      + '<div class="mx-auto sm:mx-0 shrink-0">' + ring(bp, 'var(--green)', true) + '</div></div>';
+
+    document.getElementById('scholar').innerHTML =
+      '<p class="text-sm font-bold mb-1" style="color:var(--sub)">한성대 대표 장학금</p><p class="text-xs mb-5" style="color:var(--sub)">재학생이 받을 수 있는 교내 장학금 중 졸업 설계와 관련 깊은 것만 모았어요</p>'
+      + '<div class="rounded-2xl p-5 mb-5" style="background:var(--blue-dim)"><p class="font-bold text-[15px]" style="color:var(--blue)">한성성공장학금은 매 학기 교과(평점) 순위로 자동 선발돼요</p>'
+      + '<p class="text-xs mt-1" style="color:var(--sub)">신청은 필요 없어요 · 내 평균평점 ' + S.gpa + ' · 백분위 ' + S.pctScore + ' · 등급은 단과대·전공 내 순위로 결정돼요</p></div>'
+      + '<ul class="space-y-2">'
+      + checkRow('한성성공장학금 <span class="text-[11px]" style="color:var(--sub)">· 교과 성적 순위</span>', 4, '등록금 사전감면 · 단과대별 최우수 100% · 단과대별 우수·전공별 최우수 70% · 전공별 우수 50%·30%')
+      + checkRow('졸업포상 장학금 <span class="text-[11px]" style="color:var(--sub)">· 졸업예정자</span>', 3, '학부(과)·트랙 성적 최우수 또는 지도교수 추천 · 5만~50만원 · 졸업 학기에 해당')
+      + checkRow('트랙별 총장특별장학금', 3, '트랙(학과) 경시·경진·발표대회 선발 · 트랙(학과)별 100만원 이내')
+      + checkRow('재학생 자기개발 총장특별장학금 <span class="text-[11px]" style="color:var(--sub)">· Stay&amp;Study</span>', 5, '한 학기 6~12학점 신청·이수 시 · 학점에 따라 10만~150만원 · 매 학기 7월·12월 공지')
+      + '</ul><p class="text-[11px] leading-relaxed mt-4" style="color:var(--sub)">※ 선발 인원과 세부 기준은 학기별 공지를 따라요. 출처: 한성대학교 교내장학(재학생) 안내.</p>'
+      + '<a href="https://www.hansung.ac.kr/hansung/6264/subview.do" target="_blank" rel="noopener" class="inline-block mt-3 text-sm font-bold" style="color:var(--blue); text-decoration:underline; text-underline-offset:3px">장학금 안내 링크</a>';
+  }
+
+  /* ===== 모달 ===== */
+  function row(a, b, col){ return '<li class="flex justify-between rounded-xl px-4 py-3" style="background:var(--bg)"><span>' + a + '</span><span class="num" style="color:' + col + '">' + b + '</span></li>'; }
+  function openModal(key){
+    var h = '';
+    if(key === 'elective'){
+      var done = S.domains.filter(function(d){ return d[1]; }).length;
+      h = '<p class="font-bold text-[16px] mb-1">선택필수교양 영역 현황</p><p class="text-xs mb-4" style="color:var(--sub)">5개 영역 중 ' + S.domainMin + '개 이상 이수해야 졸업요건을 충족해요 (총 15학점 이상)</p>'
+        + '<div class="grid grid-cols-5 gap-1.5 text-center mb-3">' + S.domains.map(function(d){
+            return '<div class="rounded-lg py-2 px-1" style="background:var(--bg)"><p class="text-[10px] mb-1" style="color:var(--sub)">' + d[0] + '</p><p class="text-xs font-bold" style="color:' + (d[1] ? 'var(--green)' : 'var(--red)') + '">' + (d[1] ? '이수' : '미이수') + '</p></div>'; }).join('') + '</div>'
+        + '<p class="text-sm font-bold mb-4" style="color:var(--red)">이수 분야 ' + done + '/' + S.domainMin + ' · ' + (S.domainMin - done) + '개 영역이 더 필요해요</p>'
+        + '<p class="text-xs font-bold mb-2" style="color:var(--sub)">아래 영역 중 하나를 추가로 들어보세요</p><ul class="space-y-2">'
+        + S.domains.filter(function(d){ return !d[1]; }).map(function(d){ return row(S.domainCourses[d[0]] + ' <span class="text-[11px]" style="color:var(--sub)">· ' + d[0] + '</span>', '3학점', 'var(--blue)'); }).join('') + '</ul>';
+    } else {
+      var c = S.cats[key];
+      h = '<p class="font-bold text-[16px] mb-1">' + c.kicker.split(' · ')[0] + ' · ' + c.title + ' 추천과목</p><p class="text-xs mb-4" style="color:var(--sub)">남은 영역: ' + c.parts.map(function(x){ return x[0] + ' ' + (x[2] - x[1]) + '학점'; }).join(' · ') + '</p><ul class="space-y-2">'
+        + S.courses[key].map(function(n){ return row(n, '3학점', 'var(--blue)'); }).join('') + '</ul>';
+    }
+    document.getElementById('modalBody').innerHTML = h;
+    document.getElementById('modalBackdrop').classList.remove('hidden');
+  }
+  function closeModal(){ document.getElementById('modalBackdrop').classList.add('hidden'); }
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  /* ===== 학기별 계획 + 졸업 판정 ===== */
+  var semesters = [{label:'3-1',credits:20},{label:'3-2',credits:20},{label:'4-1',credits:20},{label:'4-2',credits:20}];
+  function nextLabel(l){ var p = l.split('-'), y = parseInt(p[0]), t = parseInt(p[1]); if(t === 1){ t = 2; } else { y += 1; t = 1; } return y + '-' + t; }
+  function semNo(l){ var p = l.split('-'); return (parseInt(p[0]) - 1) * 2 + parseInt(p[1]); }
+  function addSemester(){ semesters.push({ label: nextLabel(semesters[semesters.length - 1].label), credits: 15 }); renderSemesters(); calc(); }
+  function removeSemester(i){ if(semesters.length <= 1) return; semesters.splice(i, 1); renderSemesters(); calc(); }
+  function updateSemester(i, v){ semesters[i].credits = parseInt(v) || 0; calc(); }
+  function renderSemesters(){
+    document.getElementById('semesterRows').innerHTML = semesters.map(function(s, i){
+      return '<div class="flex items-center gap-2"><span class="text-sm font-bold w-12 shrink-0">' + s.label + '</span>'
+        + '<input type="number" min="0" value="' + s.credits + '" oninput="updateSemester(' + i + ',this.value)" class="flex-1 min-w-0 rounded-xl px-4 py-2.5 text-sm num">'
+        + '<span class="text-xs shrink-0" style="color:var(--sub)">학점</span>'
+        + (semesters.length > 1 ? '<button onclick="removeSemester(' + i + ')" class="w-7 h-7 rounded-full text-sm shrink-0" style="background:var(--bg); color:var(--sub)">×</button>' : '') + '</div>';
+    }).join('');
+  }
+
+  function setStructure(type){
+    document.getElementById('cardsTrack').classList.toggle('hidden', type !== 'track');
+    document.getElementById('cardsSingle').classList.toggle('hidden', type !== 'single');
+    [['btnTrack','track'],['btnSingle','single']].forEach(function(x){
+      var b = document.getElementById(x[0]), on = type === x[1];
+      b.style.background = on ? 'var(--blue)' : 'transparent'; b.style.color = on ? '#fff' : 'var(--sub)';
+    });
+  }
+
+  function calc(){
+    var extra = parseInt(document.getElementById('extraBonus').value) || 0;
+    var cum = 0, hit = -1;
+    semesters.forEach(function(s, i){ cum += s.credits; if(hit === -1 && cum >= D.remaining) hit = i; });
+
+    var expected = '—', msg = '', col = 'var(--red)';
+    if(hit > -1){
+      var lb = semesters[hit].label, n = semNo(lb);
+      if(n < 8){
+        if(S.gpa >= 4.0 && !S.hasF){ expected = lb; col = 'var(--green)'; msg = lb + '(' + n + '학기)에 조기졸업 요건(평점 4.0 이상·F 없음)을 충족해요. 조기졸업 신청 절차는 학교에 확인하세요.'; }
+        else { expected = '4-2'; col = 'var(--amber)'; msg = '학점은 ' + lb + '(' + n + '학기)에 채우지만, 조기졸업은 평점 4.0 이상·F 없음이 필요해요 (현재 ' + S.gpa + '). 정상 졸업인 4-2(8학기) 졸업이 예상돼요.'; }
+      } else { expected = lb; col = 'var(--green)'; msg = lb + '에 졸업 학점을 채울 수 있어요.'; }
+    } else { msg = (D.remaining - cum) + '학점이 더 필요해요. 학기를 추가해보세요.'; }
+
+    var bonusTotal = S.bonus.earned + extra, creditTotal = D.total + cum;
+    var checks = [
+      ['총 ' + S.totalReq + '학점', creditTotal >= S.totalReq ? 1 : 0, creditTotal + ' / ' + S.totalReq],
+      ['비교과 ' + S.bonus.req + 'pt', bonusTotal >= S.bonus.req ? 1 : 0, bonusTotal + ' / ' + S.bonus.req + 'pt'],
+      ['전체 평점 2.0 이상', S.gpa >= 2.0 ? 1 : 0, '현재 ' + S.gpa],
+      ['트랙·영역별 요건', 2, '계획 학점이 아래 영역별 필요 학점과 맞는지 확인하세요'],
+      ['졸업종합시험·논문(작품)', 2, '예시 데이터에 없어요 · 직접 확인'],
+      ['등록 상태', 2, '휴학(미등록) 상태에서는 졸업심사가 불가해요 · 직접 확인']
+    ];
+    var fails = checks.filter(function(c){ return c[1] === 0; });
+    var ok = fails.length === 0;
+
+    document.getElementById('resExpected').textContent = expected;
+    document.getElementById('resPlan').textContent = cum;
+    document.getElementById('resPlanLabel').textContent = '계획 학점 합계 (필요 ' + D.remaining + '학점)';
+    var st = document.getElementById('resStatus'); st.textContent = msg; st.style.color = col;
+    document.getElementById('resChecks').innerHTML = checks.map(function(c){ return checkRow(c[0], c[1], c[2]); }).join('');
+    var areas = [['선택필수교양', D.needs.elective], ['1트랙(기업경영) 전공', D.needs.t1], ['2트랙(창업) 전공', D.needs.t2]];
+    document.getElementById('resAreas').innerHTML = areas.filter(function(a){ return a[1] > 0; }).map(function(a){ return '<li>' + a[0] + ' ' + a[1] + '학점</li>'; }).join('');
+
+    var reason = ok ? '학점·비교과·평점 요건을 계획대로 채우면 졸업 판정이 가능해요.' : fails.map(function(c){ return c[0] + ' 미충족'; }).join(', ') + ' → 졸업이 아닌 수료로 처리될 수 있어요.';
+    document.getElementById('hero').innerHTML =
+      '<p class="text-sm font-bold mb-4" style="color:var(--sub)">졸업 예측 요약</p>'
+      + '<div class="flex items-center justify-between gap-4"><div><p class="num text-5xl" style="color:var(--blue)">' + expected + '</p><p class="text-xs mt-1" style="color:var(--sub)">예상 졸업 학기 · 아래 계산기의 계획 기준</p></div>'
+      + pill(ok ? '졸업 가능' : '수료 예상', ok ? 'var(--green-dim)' : 'var(--red-dim)', ok ? 'var(--green)' : 'var(--red)') + '</div>'
+      + '<p class="text-xs mt-4 leading-relaxed" style="color:var(--sub)">' + reason + '</p>'
+      + '<p class="text-sm mt-3 font-bold">가장 먼저 할 일: <span style="color:var(--red)">' + S.risks[0][1] + ' ' + S.risks[0][0] + '</span> · 비교과 ' + (S.bonus.req - S.bonus.earned) + 'pt 채우기</p>';
+  }
+
+  /* 예시 계정 전환: 이름과 학번만 확인하며 실제 인증·정보 전송은 하지 않는다. */
+  function loginDemo(event){
+    event.preventDefault();
+    var name = document.getElementById('loginName');
+    var studentId = document.getElementById('loginStudentId');
+    var error = document.getElementById('loginError');
+    name.removeAttribute('aria-invalid'); studentId.removeAttribute('aria-invalid');
+    var invalid = !name.value.trim() ? name : (!studentId.value.trim() ? studentId : null);
+    if(invalid){
+      error.textContent = invalid === name ? '이름을 입력해주세요.' : '학번을 입력해주세요.';
+    } else if(name.value.trim() !== S.student.name || studentId.value.trim() !== S.student.id){
+      error.textContent = '체험 계정은 김민지 · 학번 123이에요. 입력 내용을 확인해주세요.';
+      invalid = name.value.trim() !== S.student.name ? name : studentId;
+    }
+    if(invalid){ error.hidden = false; invalid.setAttribute('aria-invalid','true'); invalid.focus(); return; }
+    error.textContent = ''; error.hidden = true;
+    document.getElementById('loginScreen').hidden = true;
+    var dashboard = document.getElementById('dashboardScreen');
+    dashboard.hidden = false; dashboard.classList.add('dashboard-enter');
+    document.getElementById('creditTitle').focus({preventScroll:true});
+    window.scrollTo(0,0);
+  }
+  function logoutDemo(){
+    closeModal();
+    document.getElementById('dashboardScreen').hidden = true;
+    document.getElementById('dashboardScreen').classList.remove('dashboard-enter');
+    document.getElementById('loginScreen').hidden = false;
+    document.getElementById('loginForm').reset();
+    document.getElementById('loginError').hidden = true;
+    document.getElementById('loginName').focus();
+    window.scrollTo(0,0);
+  }
+  document.getElementById('loginForm').addEventListener('submit', loginDemo);
+
+  renderStatic();
+  renderSemesters();
+  document.getElementById('extraBonus').addEventListener('input', calc);
+  setStructure('track');
+  calc();
+
+  function filterCerts(){
+    var q = document.getElementById('certSearch').value.trim().toLowerCase();
+    var anyVisible = false;
+    document.querySelectorAll('.cert-cat').forEach(function(cat){
+      var rows = cat.querySelectorAll('.cert-row');
+      var catHit = false;
+      rows.forEach(function(row){
+        var match = !q || row.textContent.toLowerCase().indexOf(q) !== -1;
+        row.style.display = match ? '' : 'none';
+        if(match) catHit = true;
+      });
+      cat.style.display = catHit ? '' : 'none';
+      if(catHit) anyVisible = true;
+      if(q) cat.open = catHit; else cat.open = cat === document.querySelector('.cert-cat');
+    });
+    document.getElementById('certEmpty').classList.toggle('hidden', anyVisible || !q);
+  }
+</script>
+</body>
+</html>
